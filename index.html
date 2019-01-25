@@ -8,6 +8,17 @@
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script type="text/javascript">
+      document.body.classList.add('js-loading');
+
+      window.addEventListener("load", showPage);
+
+      function showPage() {
+        document.body.classList.remove('js-loading');
+      }
+    </script>
+
   </head>
 
   <body>
@@ -51,7 +62,8 @@
       </section>
 
       <!-- rest for later use -->
-      <script src="js/main.js"></script> <!-- this here or outside container? does it matter?  -->
+      <!-- <script src="js/main.js"></script>  -->
+      <!-- this here or outside container? does it matter?  -->
 
       <div class="projects">
         <!-- put projects or whatever else i want below main content -->

@@ -324,6 +324,12 @@ nav a:hover {
 
 /* animations */
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
+
 /* The animation code */
 @keyframes fade {
   from {opacity: 0;}

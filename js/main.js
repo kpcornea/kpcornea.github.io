@@ -1,4 +1,5 @@
-// this is a notes file for now
+
+// notes below
 
 // starter outline
 // top navbar
